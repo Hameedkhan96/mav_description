@@ -385,7 +385,7 @@
     </plugin>
   </gazebo>
   <gazebo reference="rotor_2">
-    <material>Gazebo/Blue</material>
+    <material>Gazebo/Red</material>
   </gazebo>
   <joint name="rotor_1_joint" type="continuous">
     <origin rpy="0 0 0" xyz="-0.175 -0.175 0.035"/>
@@ -517,7 +517,7 @@
     </plugin>
   </gazebo>
   <gazebo reference="rotor_3">
-    <material>Gazebo/Blue</material>
+    <material>Gazebo/Red</material>
   </gazebo>
   <joint name="rotor_5_joint" type="continuous">
     <origin rpy="0 0 0" xyz="-0.175 0.175 -0.035"/>
@@ -649,7 +649,7 @@
     </plugin>
   </gazebo>
   <gazebo reference="rotor_7">
-    <material>Gazebo/Blue</material>
+    <material>Gazebo/Red</material>
   </gazebo>
   <joint name="rotor_4_joint" type="continuous">
     <origin rpy="0 0 0" xyz="-0.175 -0.175 -0.035"/>
@@ -781,7 +781,7 @@
     </plugin>
   </gazebo>
   <gazebo reference="rotor_6">
-    <material>Gazebo/Blue</material>
+    <material>Gazebo/Red</material>
   </gazebo>
   <!--  -->
   <!-- CAMERA SENSOR -->
@@ -997,7 +997,7 @@
     <selfCollide>true</selfCollide>
   </gazebo>
   <gazebo reference="Roll_1">
-    <material>Gazebo/SkyBlue</material>
+    <material>Gazebo/SkyRed</material>
     <mu1>0.2</mu1>
     <mu2>0.2</mu2>
     <selfCollide>true</selfCollide>

@@ -19,8 +19,7 @@
   <arg name="enable_mavlink_interface" default="false"/>
 
   <!-- send the robot XML to param server -->
-  <param name="robot_description" command="
-    $(find xacro)/xacro '$(arg model)' with_arm:=true"/>
+  <param name="robot_description" command="$(find xacro)/xacro '$(arg model)' with_arm:=true"/>
   
   <!--
   <rosparam file="$(find Aerial_core_description)/launch/controller.yaml" command="load"/>

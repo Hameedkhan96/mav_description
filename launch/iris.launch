@@ -8,7 +8,7 @@
 
   <arg name="debug" default="false"/>
   <arg name="gui" default="true"/>
-  <arg name="paused" default="true"/>
+  <arg name="paused" default="false"/>
 
   <!-- The following line causes gzmsg and gzerr messages to be printed to the console
       (even when Gazebo is started through roslaunch) -->
@@ -31,8 +31,10 @@
       <arg name="y" default="0.0"/>
       <arg name="z" default="0.75"/>
     </include>
-
-  <!--  
+    
+ <!--  
+    <node name="republisher_iris" pkg="mav_description" type="republish-topic-iris.py" />
+ 
     <node name="drone_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
     <node name="arm_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" >
       <remap from="joint_states" to="Aerial_core_controller/joint_states"/>
